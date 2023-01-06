@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+section {
+    background: #a9a9a9;
+    width: 100%;
+    min-height: 100vh;
+    padding-left: 260px;
+    padding-right: 260px;
+}
+
+.group {
+    width: 100%;
+    height: 80px;
+    background: #ff80ff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 100px;
+}
+
+h1 {
+    text-align: center;
+    color: #fff;
+    font-family: 'Lobster', cursive;
+    font-size: 70px;
+}
+
+h3 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-family: 'Lobster', cursive;
+    font-size: 40px;
+}
+
+.menu li {
+    display: inline-block;
+    margin: 0px 50px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.content {
+    background: #fff;
+    width: 79%;
+    height: 450px;
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px;
+    vertical-align: top;
+}
+
+h2 {
+    text-align: center;
+    font-family: 'Lobster', cursive;
+    font-size: 40px;
+}
+
+.rel {
+    background-color: #ff80ff;
+    width: 20%;
+    height: 450px;
+    display: inline-block;
+    padding-left: 75px;
+    padding-top: 10px;
+    margin-top: 15px;
+    vertical-align: top;
+    margin-left: 10px;
+}
+
+#fourth {
+    background: #fff;
+    height: 70px;
+    margin-top: 15px;
+    padding: 10px;
+    align-items: center;
+    display: flex;
+}
+
+button {
+    display: inline;
+    width: 70px;
+    height: 30px;
+    background: black;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.query {
+    display: inline;
+    width: 200px;
+    height: 30px;
+}
+p{
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 10px;
+}
